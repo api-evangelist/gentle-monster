@@ -1,8 +1,26 @@
 aid: gentle-monster
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gentle-monster.png
 name: Gentle Monster
-description: 'Gentle Monster is a company surfaced as a portfolio company of idg-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Gentle Monster is a South Korean luxury eyewear brand founded in 2011 and operated
+  by parent company IICOMBINED, headquartered in Seoul. The brand designs and sells avant-garde
+  sunglasses and optical frames, and is widely recognized for its immersive, art-installation
+  flagship stores and experiential retail spaces. Its sister brands include Tamburins (fragrance
+  and body care) and Nudake (conceptual dessert and patisserie). Gentle Monster sells globally
+  through flagship stores, department-store concessions, and its direct-to-consumer site at
+  gentlemonster.com. It was surfaced as a portfolio company of IDG Capital and added to the API
+  Evangelist network for enrichment; it is a consumer retail brand and publishes no public
+  developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/gentle-monster/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Eyewear
+- Fashion
+- Retail
+- Luxury
+- Sunglasses
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gentle-monster-domain-security.yml
 - type: Website
   url: https://gentlemonster.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
